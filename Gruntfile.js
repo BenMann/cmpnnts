@@ -12,7 +12,7 @@ module.exports = function (grunt) {
                     'headline/headline.css',
                     'spacing/spacing.css'
                 ],
-                dest: 'all/cmpnnts.css'
+                dest: '_all_components/cmpnnts.css'
             }
 
         },
@@ -23,7 +23,7 @@ module.exports = function (grunt) {
           },
           target: {
             files: {
-              'all/cmpnnts.min.css': 'all/cmpnnts.css'
+              '_all_components/cmpnnts.min.css': '_all_components/cmpnnts.css'
             }
           }
         },
@@ -46,7 +46,7 @@ module.exports = function (grunt) {
         watch: {
             css: {
                 files: [
-                    'all/cmpntns.css',
+                    '_all_components/cmpntns.css',
                     '*/*.css'
                 ],
                 tasks: ['concat:css', 'cssmin'],
