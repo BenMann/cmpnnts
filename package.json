@@ -1,0 +1,25 @@
+{
+  "name": "cmpnnts",
+  "version": "0.1.0",
+  "description": "Minimal (tiny) reusable components",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt": "^1.0.1"
+  },
+  "devDependencies": {
+    "grunt-contrib-cssmin": "^1.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenMann/cmpnnts.git"
+  },
+  "author": "BenMann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BenMann/cmpnnts/issues"
+  },
+  "homepage": "https://github.com/BenMann/cmpnnts#readme"
+}
