@@ -1,0 +1,27 @@
+p {
+  max-width: 400px;
+}
+
+.para,.p {
+  line-height: 1.4;
+}
+
+.tac {
+  text-align: center;
+}
+
+.tal {
+  text-align: left;
+}
+
+.tar {
+  text-align: right;
+}
+
+.taj {
+  text-align: justify;
+}
+
+.indent,.ip {
+  text-indent: 1em;
+}
