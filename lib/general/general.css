@@ -4,15 +4,6 @@ html,body {
   color: rgba(0,0,0,0.75);
 }
 
-section {
-  border-bottom: 1px solid #cecece;
-  padding: 3em 0;
-}
-
-p {
-  font-size: 1.2rem;
-}
-
 /* utilities */
 .db {
   display: block;
@@ -102,4 +93,12 @@ p {
 .ch,.centerhorizontal {
   display: block;
   margin: 0 auto;
+}
+
+hr {
+  height: 2px;
+  background: #ccc;
+  opacity: 0.4;
+  margin: 4rem 0;
+  border: 0;
 }

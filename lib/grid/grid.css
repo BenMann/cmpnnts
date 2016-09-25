@@ -70,3 +70,67 @@
 ._75.p5 {max-width: calc(75% - 6rem);}
 ._75.p6 {max-width: calc(75% - 12rem);}
 ._75.p7 {max-width: calc(75% - 24rem);}
+
+
+/* padding left & right */
+._25.pl1{max-width: calc(25% - .5rem);}
+._25.pl2{max-width: calc(25% - 1.6rem);}
+._25.pl3{max-width: calc(25% - 2rem);}
+._25.pl4{max-width: calc(25% - 3.6rem);}
+._25.pl5{max-width: calc(25% - 6rem);}
+._25.pl6{max-width: calc(25% - 12rem);}
+._25.pl7{max-width: calc(25% - 24rem);}
+._25.pr1{max-width: calc(25% - .5rem);}
+._25.pr2{max-width: calc(25% - 1.6rem);}
+._25.pr3{max-width: calc(25% - 2rem);}
+._25.pr4{max-width: calc(25% - 3.6rem);}
+._25.pr5{max-width: calc(25% - 6rem);}
+._25.pr6{max-width: calc(25% - 12rem);}
+._25.pr7{max-width: calc(25% - 24rem);}
+
+._33.pl1{max-width: calc(33% - .5rem);}
+._33.pl2{max-width: calc(33% - 1.6rem);}
+._33.pl3{max-width: calc(33% - 2rem);}
+._33.pl4{max-width: calc(33% - 3.6rem);}
+._33.pl5{max-width: calc(33% - 6rem);}
+._33.pl6{max-width: calc(33% - 12rem);}
+._33.pl7{max-width: calc(33% - 24rem);}
+._33.pr1{max-width: calc(33% - .5rem);}
+._33.pr2{max-width: calc(33% - 1.6rem);}
+._33.pr3{max-width: calc(33% - 2rem);}
+._33.pr4{max-width: calc(33% - 3.6rem);}
+._33.pr5{max-width: calc(33% - 6rem);}
+._33.pr6{max-width: calc(33% - 12rem);}
+._33.pr7{max-width: calc(33% - 24rem);}
+
+
+._50.pl1{max-width: calc(50% - .5rem);}
+._50.pl2{max-width: calc(50% - 1.6rem);}
+._50.pl3{max-width: calc(50% - 2rem);}
+._50.pl4{max-width: calc(50% - 3.6rem);}
+._50.pl5{max-width: calc(50% - 6rem);}
+._50.pl6{max-width: calc(50% - 12rem);}
+._50.pl7{max-width: calc(50% - 24rem);}
+._50.pr1{max-width: calc(50% - .5rem);}
+._50.pr2{max-width: calc(50% - 1.6rem);}
+._50.pr3{max-width: calc(50% - 2rem);}
+._50.pr4{max-width: calc(50% - 3.6rem);}
+._50.pr5{max-width: calc(50% - 6rem);}
+._50.pr6{max-width: calc(50% - 12rem);}
+._25.pr7{max-width: calc(25% - 24rem);}
+
+
+._75.pl1{max-width: calc(75% - .5rem);}
+._75.pl2{max-width: calc(75% - 1.6rem);}
+._75.pl3{max-width: calc(75% - 2rem);}
+._75.pl4{max-width: calc(75% - 3.6rem);}
+._75.pl5{max-width: calc(75% - 6rem);}
+._75.pl6{max-width: calc(75% - 12rem);}
+._75.pl7{max-width: calc(75% - 24rem);}
+._75.pr1{max-width: calc(75% - .5rem);}
+._75.pr2{max-width: calc(75% - 1.6rem);}
+._75.pr3{max-width: calc(75% - 2rem);}
+._75.pr4{max-width: calc(75% - 3.6rem);}
+._75.pr5{max-width: calc(75% - 6rem);}
+._75.pr6{max-width: calc(75% - 12rem);}
+._75.pr7{max-width: calc(75% - 24rem);}
