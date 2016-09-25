@@ -118,9 +118,9 @@ hr {
 }
 
 .btn {
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  padding: .3em 1em;
+  border: 1px solid #000;
+  border-radius: 2px;
+  padding: .5em 1em;
   margin: .6em .5em;
   cursor: pointer;
   color: #333;
@@ -384,11 +384,13 @@ code {
 .darkcode,.dc {
   background-color: #333;
   color: #faf7f7;
+  border-left: none;
 }
 
 .lightcode,.lc {
   background-color: #ccc;
   color: #444;
+  border-left: none;
 }
 .para,.p,p {
   line-height: 1.4;
@@ -413,4 +415,61 @@ code {
 
 .indent,.ip {
   text-indent: 1em;
+}
+
+.cc,.color-charcoal {
+  color: #414141;
+}
+
+.bgc,.background-charcoal {
+  background-color: #414141;
+}
+
+.cm,.color-mosque {
+  color: #026972;
+}
+
+.bgm,.background-mosque {
+  background-color: #026972;
+}
+
+.cr,.color-red {
+  color: #FE756B;
+}
+
+.bgr,.background-red {
+  background-color: #FE756B;
+}
+
+.cg,.color-green {
+  color: #A4C493;
+}
+
+.bgg,.background-green {
+  background-color: #A4C493;
+}
+
+.cl,.color-lightgreen {
+  color: #C8E1CB;
+}
+
+.bgl,.background-lightgreen {
+  background-color: #C8E1CB;
+}
+.tags {
+
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: 1px solid #000000;
+  margin: 0.5rem 0.2rem;
+  transition: background  0.2s ease-in;
+  text-decoration: none;
+}
+
+.tag:hover {
+  background-color: #ffefef;
+  transition: background 0.15s ease-in;
 }

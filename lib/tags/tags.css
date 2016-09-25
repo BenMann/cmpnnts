@@ -1,0 +1,17 @@
+.tags {
+
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: 1px solid #000000;
+  margin: 0.5rem 0.2rem;
+  transition: background  0.2s ease-in;
+  text-decoration: none;
+}
+
+.tag:hover {
+  background-color: #ffefef;
+  transition: background 0.15s ease-in;
+}

@@ -11,9 +11,11 @@ code {
 .darkcode,.dc {
   background-color: #333;
   color: #faf7f7;
+  border-left: none;
 }
 
 .lightcode,.lc {
   background-color: #ccc;
   color: #444;
+  border-left: none;
 }
