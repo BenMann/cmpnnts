@@ -580,6 +580,35 @@ a {
 .hvr:active {
   opacity: .8; transition: opacity .15s ease-out;
 }
+.pgntn:before,
+.pgntn:after {
+    content: " ";
+    display: table;
+}
+.pgntn:after {
+    clear: both;
+}
+.pgntn {
+    *zoom: 1;
+}
+
+.pgntn .pg {
+  display: inline-block;
+  float: left;
+  padding: 0.5rem 1rem;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  cursor: pointer;
+
+}
+
+.pgntn .pg {
+  border-right: 1px solid #000;
+}
+
+.pgntn .pg:nth-of-type(1) {
+  border-left: 1px solid #000;
+}
 .tag {
   display: inline-block;
   padding: 0.5rem 1rem;

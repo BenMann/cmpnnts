@@ -1,0 +1,1 @@
+.pgntn:after,.pgntn:before{content:" ";display:table}.pgntn:after{clear:both}.pgntn .pg{display:inline-block;float:left;padding:.5rem 1rem;border-top:1px solid #000;border-bottom:1px solid #000;cursor:pointer;border-right:1px solid #000}.pgntn .pg:nth-of-type(1){border-left:1px solid #000}
