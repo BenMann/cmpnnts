@@ -6,12 +6,6 @@
   cursor: pointer;
   color: #333;
   text-decoration: none;
-  transition: background  0.2s ease-in;
-}
-
-.btn:hover {
-  background-color: #ffefef;
-  transition: background 0.15s ease-in;
 }
 
 .plus {

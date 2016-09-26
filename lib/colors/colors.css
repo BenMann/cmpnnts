@@ -46,3 +46,51 @@
 .cb,.colorblack {
   color: #fff;
 }
+
+.ct,.ctransparent {color: transparent;}
+.bgt,.bgtransparent {background-color: transparent;}
+
+.cb90 {color: rgba(0,0,0,.9);}
+.cb80 {color: rgba(0,0,0,.8);}
+.cb70 {color: rgba(0,0,0,.7);}
+.cb60 {color: rgba(0,0,0,.6);}
+.cb50 {color: rgba(0,0,0,.5);}
+.cb40 {color: rgba(0,0,0,.4);}
+.cb30 {color: rgba(0,0,0,.3);}
+.cb20 {color: rgba(0,0,0,.2);}
+.cb10 {color: rgba(0,0,0,.1);}
+.cb05 {color: rgba(0,0,0,.05);}
+
+.bgb90 {background-color: rgba(0,0,0,.9);}
+.bgb80 {background-color: rgba(0,0,0,.8);}
+.bgb70 {background-color: rgba(0,0,0,.7);}
+.bgb60 {background-color: rgba(0,0,0,.6);}
+.bgb50 {background-color: rgba(0,0,0,.5);}
+.bgb40 {background-color: rgba(0,0,0,.4);}
+.bgb30 {background-color: rgba(0,0,0,.3);}
+.bgb20 {background-color: rgba(0,0,0,.2);}
+.bgb10 {background-color: rgba(0,0,0,.1);}
+.bgb05 {background-color: rgba(0,0,0,.05);}
+
+
+ .cw90 {color: rgba(255,255,255,.9);}
+ .cw80 {color: rgba(255,255,255,.8);}
+ .cw70 {color: rgba(255,255,255,.7);}
+ .cw60 {color: rgba(255,255,255,.6);}
+ .cw50 {color: rgba(255,255,255,.5);}
+ .cw40 {color: rgba(255,255,255,.4);}
+ .cw30 {color: rgba(255,255,255,.3);}
+ .cw20 {color: rgba(255,255,255,.2);}
+ .cw10 {color: rgba(255,255,255,.1);}
+ .cw05 {color: rgba(255,255,255,.05);}
+
+ .bgw90 {background-color: rgba(255,255,255,.9);}
+ .bgw80 {background-color: rgba(255,255,255,.8);}
+ .bgw70 {background-color: rgba(255,255,255,.7);}
+ .bgw60 {background-color: rgba(255,255,255,.6);}
+ .bgw50 {background-color: rgba(255,255,255,.5);}
+ .bgw40 {background-color: rgba(255,255,255,.4);}
+ .bgw30 {background-color: rgba(255,255,255,.3);}
+ .bgw20 {background-color: rgba(255,255,255,.2);}
+ .bgw10 {background-color: rgba(255,255,255,.1);}
+ .bgw05 {background-color: rgba(255,255,255,.05);}

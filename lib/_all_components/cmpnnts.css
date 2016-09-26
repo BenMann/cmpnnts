@@ -125,12 +125,6 @@ hr {
   cursor: pointer;
   color: #333;
   text-decoration: none;
-  transition: background  0.2s ease-in;
-}
-
-.btn:hover {
-  background-color: #ffefef;
-  transition: background 0.15s ease-in;
 }
 
 .plus {
@@ -466,6 +460,54 @@ code {
   color: #fff;
 }
 
+.ct,.ctransparent {color: transparent;}
+.bgt,.bgtransparent {background-color: transparent;}
+
+.cb90 {color: rgba(0,0,0,.9);}
+.cb80 {color: rgba(0,0,0,.8);}
+.cb70 {color: rgba(0,0,0,.7);}
+.cb60 {color: rgba(0,0,0,.6);}
+.cb50 {color: rgba(0,0,0,.5);}
+.cb40 {color: rgba(0,0,0,.4);}
+.cb30 {color: rgba(0,0,0,.3);}
+.cb20 {color: rgba(0,0,0,.2);}
+.cb10 {color: rgba(0,0,0,.1);}
+.cb05 {color: rgba(0,0,0,.05);}
+
+.bgb90 {background-color: rgba(0,0,0,.9);}
+.bgb80 {background-color: rgba(0,0,0,.8);}
+.bgb70 {background-color: rgba(0,0,0,.7);}
+.bgb60 {background-color: rgba(0,0,0,.6);}
+.bgb50 {background-color: rgba(0,0,0,.5);}
+.bgb40 {background-color: rgba(0,0,0,.4);}
+.bgb30 {background-color: rgba(0,0,0,.3);}
+.bgb20 {background-color: rgba(0,0,0,.2);}
+.bgb10 {background-color: rgba(0,0,0,.1);}
+.bgb05 {background-color: rgba(0,0,0,.05);}
+
+
+ .cw90 {color: rgba(255,255,255,.9);}
+ .cw80 {color: rgba(255,255,255,.8);}
+ .cw70 {color: rgba(255,255,255,.7);}
+ .cw60 {color: rgba(255,255,255,.6);}
+ .cw50 {color: rgba(255,255,255,.5);}
+ .cw40 {color: rgba(255,255,255,.4);}
+ .cw30 {color: rgba(255,255,255,.3);}
+ .cw20 {color: rgba(255,255,255,.2);}
+ .cw10 {color: rgba(255,255,255,.1);}
+ .cw05 {color: rgba(255,255,255,.05);}
+
+ .bgw90 {background-color: rgba(255,255,255,.9);}
+ .bgw80 {background-color: rgba(255,255,255,.8);}
+ .bgw70 {background-color: rgba(255,255,255,.7);}
+ .bgw60 {background-color: rgba(255,255,255,.6);}
+ .bgw50 {background-color: rgba(255,255,255,.5);}
+ .bgw40 {background-color: rgba(255,255,255,.4);}
+ .bgw30 {background-color: rgba(255,255,255,.3);}
+ .bgw20 {background-color: rgba(255,255,255,.2);}
+ .bgw10 {background-color: rgba(255,255,255,.1);}
+ .bgw05 {background-color: rgba(255,255,255,.05);}
+
 .bon {
   border: none;
 }
@@ -485,42 +527,63 @@ code {
 .boln {
   border-left: none;
 }
+
+.bot {border-top: 1px solid #000;}
+.bor {border-right: 1px solid #000;}
+.bob {border-bottom: 1px solid #000;}
+.bol {border-left: 1px solid #000;}
+
+.bocb90 {border-color: rgba(0,0,0,.9);}
+.bocb80 {border-color: rgba(0,0,0,.8);}
+.bocb70 {border-color: rgba(0,0,0,.7);}
+.bocb60 {border-color: rgba(0,0,0,.6);}
+.bocb50 {border-color: rgba(0,0,0,.5);}
+.bocb40 {border-color: rgba(0,0,0,.4);}
+.bocb30 {border-color: rgba(0,0,0,.3);}
+.bocb20 {border-color: rgba(0,0,0,.2);}
+.bocb10 {border-color: rgba(0,0,0,.1);}
+.bocb05 {border-color: rgba(0,0,0,.05);}
+
+.bocw90 {border-color: rgba(255,255,255,.9);}
+.bocw80 {border-color: rgba(255,255,255,.8);}
+.bocw70 {border-color: rgba(255,255,255,.7);}
+.bocw60 {border-color: rgba(255,255,255,.6);}
+.bocw50 {border-color: rgba(255,255,255,.5);}
+.bocw40 {border-color: rgba(255,255,255,.4);}
+.bocw30 {border-color: rgba(255,255,255,.3);}
+.bocw20 {border-color: rgba(255,255,255,.2);}
+.bocw10 {border-color: rgba(255,255,255,.1);}
+.bocw05 {border-color: rgba(255,255,255,.05);}
 a {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   color: rgba(0,0,0,0.75);
 }
 
-.link {
-  position: relative;
-  display: inline-block;
-}
-
-.link:before {
-  display: block;
-  height: 0.2rem;
-  width: 100%;
-  background-color: red;
-  /*position: absolute;*/
-  z-index: 10;
-}
+.link {border-bottom: 1px dashed #000; text-decoration: none; transition: color .15s ease-in;}
+.link:link, .link:visited {transition: color .15s ease-in;}
+.link:hover {transition: color .15s ease-in;}
+.link:active {transition: color .15s ease-in;}
+.link:focus {transition: color .15s ease-in;}
 
 .tdn {
   text-decoration: none;
 }
-.tags {
-
+.hvr {
+  opacity: 1;
+  transition: opacity .15s ease-in;
 }
-
+.hvr:hover,
+.hvr:focus {
+  opacity: .5;
+  transition: opacity .15s ease-in;
+}
+.hvr:active {
+  opacity: .8; transition: opacity .15s ease-out;
+}
 .tag {
   display: inline-block;
   padding: 0.5rem 1rem;
   border: 1px solid #000000;
   margin: 0.5rem 0.2rem;
-  transition: background  0.2s ease-in;
   text-decoration: none;
-}
-
-.tag:hover {
-  background-color: #ffefef;
-  transition: background 0.15s ease-in;
 }

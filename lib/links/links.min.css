@@ -1,1 +1,1 @@
-a{font-family:-apple-system,BlinkMacSystemFont,sans-serif;color:rgba(0,0,0,.75)}.link{position:relative;display:inline-block}.link:before{display:block;height:.2rem;width:100%;background-color:red;z-index:10}.tdn{text-decoration:none}
+.link,.link:active,.link:focus,.link:hover,.link:link,.link:visited{transition:color .15s ease-in}.link,.tdn{text-decoration:none}a{font-family:-apple-system,BlinkMacSystemFont,sans-serif;color:rgba(0,0,0,.75)}.link{border-bottom:1px dashed #000}
