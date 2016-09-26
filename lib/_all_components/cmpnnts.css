@@ -456,6 +456,57 @@ code {
 .bgl,.background-lightgreen {
   background-color: #C8E1CB;
 }
+
+
+.cw,.colorwhite {
+  color: #fff;
+}
+
+.cb,.colorblack {
+  color: #fff;
+}
+
+.bon {
+  border: none;
+}
+
+.botn {
+  border-top: none;
+}
+
+.born {
+  border-right: none;
+}
+
+.bobn {
+  border-bottom: none;
+}
+
+.boln {
+  border-left: none;
+}
+a {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  color: rgba(0,0,0,0.75);
+}
+
+.link {
+  position: relative;
+  display: inline-block;
+}
+
+.link:before {
+  display: block;
+  height: 0.2rem;
+  width: 100%;
+  background-color: red;
+  /*position: absolute;*/
+  z-index: 10;
+}
+
+.tdn {
+  text-decoration: none;
+}
 .tags {
 
 }
