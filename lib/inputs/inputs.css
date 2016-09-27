@@ -1,0 +1,16 @@
+.inpt {
+  padding: 0.5rem;
+  min-height: 0.8rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: 1px solid #000;
+  transition: all .15s ease-in-out;
+  font-size: .9rem;
+}
+
+.inpt:active,
+.inpt:focus {
+  outline: none;
+  border: 1px solid #ccc;
+  transition: all .15s ease-in-out;
+}

@@ -609,6 +609,23 @@ a {
 .pgntn .pg:nth-of-type(1) {
   border-left: 1px solid #000;
 }
+.inpt {
+  padding: 0.5rem;
+  min-height: 0.8rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: 1px solid #000;
+  transition: all .15s ease-in-out;
+  font-size: .9rem;
+}
+
+.inpt:active,
+.inpt:focus {
+  outline: none;
+  border: 1px solid #ccc;
+  transition: all .15s ease-in-out;
+}
+
 .tag {
   display: inline-block;
   padding: 0.5rem 1rem;
