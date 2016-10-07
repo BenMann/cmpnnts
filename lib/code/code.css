@@ -19,3 +19,10 @@ code {
   color: #444;
   border-left: none;
 }
+
+code.dilb {
+  display: inline;
+  padding: .3rem;
+  border: none;
+  margin: 0;
+}
