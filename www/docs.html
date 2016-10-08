@@ -63,7 +63,8 @@
 </code>
 </pre>
 
-        <code>npm install cmpnnts-grid</code> <br>
+        <hr class="mt5 mb0">
+        <pre>npm install cmpnnts-grid</pre>
         <span class="cb20 min">3KB minified.</span>
       </section>
 
@@ -80,18 +81,63 @@
         <h4 class="w">The July sun caused a fragment of black pine wax to ooze on the velvet quilt.</h4>
         <h5 class="w">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
 
-          <code>npm install cmpnnts-headlines</code><br>
-          <span class="cb20 min">196 Bytes minified.</span>
-
+        <hr class="mt5 mb0">
+        <pre>npm install cmpnnts-headlines</pre>
+        <span class="cb50 min">196 Bytes minified.</span>
       </section>
+
       <section class="mt5 mb6">
         <h2><a href="#" name="paragraphs">paragraphs</a></h2>
+        <p class="w">
+          Paragraphs give you a predefined font-size and line-height, which is more
+          readable than the default on basically every screen. It also let's you align text
+          in every possible way and is best combined with the <a href="#general">general</a> component to
+          allow defining the width of paragraphs. <br>
+          This right here is a perfect example of a paragraph with width.
+        </p>
+        <hr class="mt5 mb0">
+        <pre>npm install cmpnnts-paragraphs</pre>
+        <span>162 Bytes minified</span>
       </section>
       <section class="mt5 mb6">
         <h2><a href="#" name="spacing">spacing</a></h2>
+        <p class="w">
+          The spaceing component is very helpful in combination with all other components,
+          as it provides predefined margins and paddings. You cna either choose certain sides of the element
+          that a space should be applied to, or apply it to every side. Margins use the class-name mX and paddings
+          can be set with pX, where X is a number from 0 to 7.
+          The different spacings are as follows:
+          <p>
+            <b>0  </b> — <b>.25rem</b> — <b>0.8rem</b> — <b>1rem</b> — <b>1.8rem</b> — <b>3rem</b> — <b>6rem</b> — <b>12rem</b>
+          </p>
+          When used with the <a href="#grids">grids component</a>, the grid will automatically account for the given padding like this:
+        </p>
+<pre>
+<code>
+._25.p7 {
+  max-width: calc(25% - 24rem);
+}
+</code>
+</pre>
+        <hr class="mt5 mb0">
+        <pre>npm install cmpnnts-spacing</pre>
+        <span class="cb50 min">2KB minified.</span>
       </section>
       <section class="mt5 mb6">
         <h2><a href="#" name="tags">tags</a></h2>
+        <p class="w">
+          The tags component is a really small set of rules to create inline-block elements with a border.
+          Being inline-block, they will adjust to the screen-size automatically, however you can also combine them
+          with <a href="#spacing">spacing</a> to increase the margin between them. Also putting a <a href="#hovers">hover</a> on
+          the tags seems like a good combination.
+        </p>
+        <a href="#grid" class="tag">grid</a>
+        <a href="#headlines" class="tag">headlines</a>
+        <a href="#paragraphs" class="tag">paragraphs</a>
+
+        <hr class="mt5 mb0">
+        <pre>npm install cmpnnts-tags</pre>
+        <span class="cb50 min">107 Bytes minified.</span>
       </section>
       <section class="mt5 mb6">
         <h2><a href="#" name="buttons">buttons</a></h2>
