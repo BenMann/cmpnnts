@@ -127,6 +127,14 @@ hr {
   text-decoration: none;
 }
 
+.min {
+  font-size: 0.8em;
+}
+
+.minus {
+  font-size: 0.9em;
+}
+
 .plus {
   font-size: 1.5em;
 }
@@ -400,6 +408,10 @@ code.dilb {
 
 pre {
   line-height: 1.3rem;
+}
+
+pre > code {
+  padding-bottom: 2rem;
 }
 .para,.p,p {
   line-height: 1.4;

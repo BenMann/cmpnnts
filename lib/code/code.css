@@ -30,3 +30,7 @@ code.dilb {
 pre {
   line-height: 1.3rem;
 }
+
+pre > code {
+  padding-bottom: 2rem;
+}
