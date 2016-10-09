@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>cmpnnts spacing</title>
+    <link rel="stylesheet" href="../../lib/_all_components/cmpnnts.min.css">
+  </head>
+  <body>
+    <div class="cm ch">
+
+      <h1 class="pt6 dilb">cmpnnts spacing</h1><small class="dilb ml3">v0.1.0</small>
+
+      <section class="mt5 mb6">
+        <p class="w">
+          The spaceing component is very helpful in combination with all other components,
+          as it provides predefined margins and paddings. You cna either choose certain sides of the element
+          that a space should be applied to, or apply it to every side. Margins use the class-name mX and paddings
+          can be set with pX, where X is a number from 0 to 7.
+          The different spacings are as follows:
+          <p>
+            <b>0  </b> — <b>.25rem</b> — <b>0.8rem</b> — <b>1rem</b> — <b>1.8rem</b> — <b>3rem</b> — <b>6rem</b> — <b>12rem</b>
+          </p>
+          When used with the <a href="#grids">grids component</a>, the grid will automatically account for the given padding like this:
+        </p>
+<pre>
+<code>
+._25.p7 {
+  max-width: calc(25% - 24rem);
+}
+</code>
+</pre>
+        <hr class="mt5 mb0">
+        <pre>npm install cmpnnts-spacing</pre>
+        <span class="cb50 min">~2KB minified.</span>
+      </section>
+
+
+      <footer class="mt6 bot bocb20">
+        <span class="mt4 mb4 db bocb10">Built by <a href="http://github.com/benmann" class="link tdn">benmann</a></span>
+      </footer>
+    </div>
+  </body>
+</html>
