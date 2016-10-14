@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>cmpnnts hovers</title>
+    <link rel="stylesheet" href="../css/cmpnnts.min.css">
+  </head>
+  <body>
+    <div class="cm ch">
+
+      <h1 class="pt6 dilb">cmpnnts hovers</h1><small class="dilb ml3">v0.1.0</small>
+
+
+      <section class="mt5 mb6">
+        <p class="w">
+          hovers offer the possibility to switch an element's opactiy with a predefined transition. The components
+          also covers :active and :focus states, however more elaborate hover effects should be realized with custom CSS.
+          To apply the hover effect to an element, just give it the class <b>.hvr</b>
+        </p>
+
+        <a href="#" class="btn dilb ml0 bgm cw bon hvr">Hover me!</a>
+
+<pre>
+<code>
+.hvr {
+  opacity: 1;
+  transition: opacity .15s ease-in;
+}
+
+.hvr:hover,
+.hvr:focus {
+  opacity: .5;
+  transition: opacity .15s ease-in;
+}
+
+.hvr:active {
+  opacity: .8; transition: opacity .15s ease-out;
+}
+</code>
+</pre>
+
+        <pre>npm install cmpnnts-hovers</pre>
+        <span class="cb50 min">~163 Bytes minified.</span>
+      </section>
+
+
+      <footer class="mt6 bot bocb20">
+      <span class="mt4 mb4 db bocb10"><a href="http://github.com/benmann/cmpnnts" class="link tdn">GitHub</a> | <a href="https://twitter.com/solltegehen" class="link tdn">Twitter</a></span>
+    </footer>
+    </div>
+  </body>
+</html>

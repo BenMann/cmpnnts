@@ -555,6 +555,10 @@ pre > code {
   border-left: none;
 }
 
+.boa {
+  border: 1px solid #fff;
+}
+
 .bot {border-top: 1px solid #000;}
 .bor {border-right: 1px solid #000;}
 .bob {border-bottom: 1px solid #000;}
