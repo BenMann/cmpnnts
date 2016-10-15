@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>cmpnnts lists</title>
+    <link rel="stylesheet" href="../css/cmpnnts.min.css">
+  </head>
+  <body>
+    <div class="cm ch">
+
+      <h1 class="pt6 dilb">cmpnnts lists</h1><small class="dilb ml3">v0.1.0</small>
+
+
+      <section class="mt5 mb6">
+        <p class="w mb5">
+          The list module sets smart defaults for ordered and unordered lists, replacing the
+          default margin and padding and giving its elments a better indenting as
+          well as vertical spacing. <br>
+          You can use it by applying a class of <b>lim1</b> or <b>lim2</b> to your lists root.
+          Additionaly you can set a list-style: none with the class <b>.lsn</b>
+        </p>
+
+        <ul class="lim1">
+          <li>
+            I'm an li
+          </li>
+          <li>
+            I'm an li
+          </li>
+          <li>
+            I'm an li
+          </li>
+        </ul>
+
+<pre>
+<code>
+ul,ol {
+  margin: 0;
+  padding: 0;
+}
+
+.lim1 li{
+  margin-left: 1rem;
+}
+
+.lim2 li{
+  margin-left: 2rem;
+}
+
+.lis li{
+  margin: 0.8em 0;
+}
+
+.lis1 li{
+  margin: 1em 0;
+}
+
+.lis2 li{
+  margin: 2em 0;
+}
+
+.lsn {
+  list-style: none;
+}
+</code>
+</pre>
+
+        <pre>npm install cmpnnts-lists</pre>
+<span class="cb50 min">~164 Bytes minified.</span>
+      </section>
+
+
+      <footer class="mt6 bot bocb20">
+        <span class="mt4 mb4 db bocb10"><a href="http://github.com/benmann/cmpnnts" class="link tdn">GitHub</a> | <a href="https://twitter.com/solltegehen" class="link tdn">Twitter</a></span>
+      </footer>
+    </div>
+  </body>
+</html>

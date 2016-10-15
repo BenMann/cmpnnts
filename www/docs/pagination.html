@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>cmpnnts paginations</title>
+    <link rel="stylesheet" href="../css/cmpnnts.min.css">
+  </head>
+  <body>
+    <div class="cm ch">
+
+      <h1 class="pt6 dilb">cmpnnts paginations</h1><small class="dilb ml3">v0.1.0</small>
+
+
+      <section class="mt5 mb6">
+        <p class="w mb5">
+          The pagination module comes without much fluff and offers just a baisc list of numbers that
+          correspond to your pages, no arrows etc. To use the pagination you need a container element with
+          a class of <b>.pgntn</b> and elmements inside with a class of <b>.pg</b> for page.
+          It is assumed the pages are clickable, thus the cursor is always set to pointer.
+        </p>
+
+        <div class="pgntn">
+          <span class="pg">1</span>
+          <span class="pg">2</span>
+          <span class="pg">3</span>
+          <span class="pg">4</span>
+          <span class="pg">5</span>
+          <span class="pg">6</span>
+        </div>
+
+<pre>
+<code>
+.pgntn:before,
+.pgntn:after {
+    content: " ";
+    display: table;
+}
+.pgntn:after {
+    clear: both;
+}
+.pgntn {
+    *zoom: 1;
+}
+
+.pgntn .pg {
+  display: inline-block;
+  float: left;
+  padding: 0.5rem 1rem;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  cursor: pointer;
+
+}
+
+.pgntn .pg {
+  border-right: 1px solid #000;
+}
+
+.pgntn .pg:nth-of-type(1) {
+  border-left: 1px solid #000;
+}
+</code>
+</pre>
+
+        <pre>npm install cmpnnts-paginations</pre>
+<span class="cb50 min">~290 Bytes minified.</span>
+      </section>
+
+
+      <footer class="mt6 bot bocb20">
+        <span class="mt4 mb4 db bocb10"><a href="http://github.com/benmann/cmpnnts" class="link tdn">GitHub</a> | <a href="https://twitter.com/solltegehen" class="link tdn">Twitter</a></span>
+      </footer>
+    </div>
+  </body>
+</html>
