@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>cmpnnts general</title>
+    <link rel="stylesheet" href="../css/cmpnnts.min.css">
+  </head>
+  <body>
+    <div class="cm ch">
+
+      <h1 class="pt6 dilb">cmpnnts general</h1><small class="dilb ml3">v0.1.0</small>
+
+
+      <section class="mt5 mb6">
+        <p class="w">
+          The general component is a rather big collection of utility classes that can be useful
+          in combination with most other components. The component contains default fonts on the html and body tag,
+          classes like <b>.db</b> to set an element to display: block; and width as well as type modifiers.
+          In the near future it is planned to split the general component into smaller ones, enabling developers
+          to require even less CSS.
+        </p>
+
+
+<pre>
+<code>
+html,body {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  color: rgba(0,0,0,0.75);
+}
+
+/* utilities */
+.db {
+  display: block;
+}
+
+.dilb {
+  display: inline-block;
+}
+
+/* width modifiers */
+.narrow,.nw {
+  max-width: 20em;
+}
+
+.normal,.n {
+  max-width: 30em;
+}
+
+.wide,.w {
+  max-width: 35em;
+}
+
+/* type modifiers */
+.min {
+  font-size: 0.8em;
+}
+
+.minus {
+  font-size: 0.9em;
+}
+
+.plus {
+  font-size: 1.5em;
+}
+
+.max {
+  font-size: 1.6em;
+}
+
+.truncate {
+  text-overflow: ellipsis;
+  white-space: no-wrap;
+  overflow: hidden;
+}
+
+/* type styles */
+.uppercase,.u,u {
+  text-transform: uppercase;
+}
+
+.bold,.b,b {
+  font-weight: 800;
+}
+
+.small,.s,s {
+  font-size: 0.9em;
+}
+
+.italic,.i,i {
+  font-style: italic;
+}
+
+.underline,.ul {
+  text-decoration: underline;
+}
+
+.strike,.s {
+  text-decoration: line-through;
+}
+
+.capitalize,.c {
+  text-transform: capitalize;
+}
+
+.cb,.containerbig {
+  width: 80%;
+}
+
+.cm,.containermiddle {
+  width: 60%;
+}
+
+.cn,.containernarrow {
+  width: 30%;
+}
+
+.ch,.centerhorizontal {
+  display: block;
+  margin: 0 auto;
+}
+
+hr {
+  height: 2px;
+  background: #ccc;
+  opacity: 0.4;
+  margin: 4rem 0;
+  border: 0;
+}
+</code>
+</pre>
+
+        <pre>npm install cmpnnts-general</pre>
+        <span class="cb50 min">~816 Bytes minified.</span>
+      </section>
+
+
+      <footer class="mt6 bot bocb20">
+      <span class="mt4 mb4 db bocb10"><a href="http://github.com/benmann/cmpnnts" class="link tdn">GitHub</a> | <a href="https://twitter.com/solltegehen" class="link tdn">Twitter</a></span>
+    </footer>
+    </div>
+  </body>
+</html>
