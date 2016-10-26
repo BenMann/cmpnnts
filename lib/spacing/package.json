@@ -1,0 +1,27 @@
+{
+  "name": "cmpnnts-spacing",
+  "version": "1.0.0",
+  "description": "cmpnnts is a collection of tiny components written to consume as little bandwidth as possible.",
+  "main": "cmpnnts.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benmann/cmpnnts.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "components",
+    "modules",
+    "minimal",
+    "bootstrap"
+  ],
+  "author": "benmann <benmann89@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benmann/cmpnnts/issues"
+  },
+  "homepage": "https://github.com/benmann/cmpnnts#readme"
+}
